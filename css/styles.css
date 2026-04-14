@@ -1,6 +1,42 @@
 body{
   padding:0px;
+  background-color:beige;
 }
-h1{
+
+.open{
   background-image: url("../images/spaghetti.jpeg");
+  display: inline-block;
+  width:99%;
+  height: 200px;
+  border-radius: 25px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.odin{
+  font-size:300%;
+  color:white;
+  font-weight: 900;
+}
+
+.lbox{
+  background-color:rgb(250,250,240);
+  justify-content: center;
+  gap:20px;
+  display:flex;
+  border-radius:25px;
+  height:200px;
+  margin:5px;
+  margin-top:20px;
+}
+
+.b1,.b2,.b3{
+  margin:10px;
+  display: inline-block;
+  background-color:white;
+  width:100px;
+  height:140px;
 }
