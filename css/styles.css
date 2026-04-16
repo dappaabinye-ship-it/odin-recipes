@@ -1,42 +1,88 @@
 body{
   padding:0px;
-  background-color:beige;
+  background-color:rgb(250,250,246);
+  display: block;
+  margin:0px;
+  height:auto;
+  min-height:100vh;
 }
 
 .open{
   background-image: url("../images/spaghetti.jpeg");
-  display: inline-block;
-  width:99%;
-  height: 200px;
-  border-radius: 25px;
+  width:100%;
+  height: 150px;
   display:flex;
   justify-content: center;
   align-items: center;
-  margin-left:auto;
-  margin-right:auto;
+  margin:0px;
 }
 
 .odin{
   font-size:300%;
   color:white;
   font-weight: 900;
+  font-family: Times New Roman;
 }
 
 .lbox{
-  background-color:rgb(250,250,240);
+  background-color:rgb(255,255,200);
   justify-content: center;
-  gap:20px;
+  align-items: center;
+  gap:0px;
   display:flex;
-  border-radius:25px;
   height:200px;
-  margin:5px;
-  margin-top:20px;
+  margin-top:30px;
+  padding-bottom: 20px;
+  width:100%;
+  padding-top:20px;
 }
 
 .b1,.b2,.b3{
   margin:10px;
-  display: inline-block;
-  background-color:white;
+  background-color:rgb(250,250,239);
   width:100px;
   height:140px;
+  justify-content: center;
+  align-items:center;
+  padding-top:10px;
+  border-radius:10px
 }
+
+
+.lil{
+  width:75px;
+  height:75px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.lit{
+  display: inline-block;
+  margin:15px;
+  width:auto;
+}
+
+h2,p{
+  margin:8px;
+  margin-top:20px;
+}
+
+.text{
+  padding-bottom:30px;
+  padding-right: 30px;
+  padding-left:30px;
+  font-size:17px;
+}
+
+h2{
+  margin-top:30px;
+  font-size:25px;
+}
+
+a{
+  color:grey;
+}
+
