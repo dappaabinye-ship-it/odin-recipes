@@ -1,11 +1,13 @@
 body {
     background-color: rgb(250,250,239);
     font-family: Sans-Serif;
-    color: rgb (70,0,0);
+    padding:20px;
+    color:rgb(65,0,0);
 }
 
 img{
-    width:360px;
+    width:335px;
+    height:auto;
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -15,4 +17,20 @@ h1{
   font-family: Serif;
   color:#2C3E50;
   text-align: center;
+  margin-top:0px;
+}
+
+button{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:26.5px;
+  background-color:burlywood;
+  width:130px;
+  height:29px;
+  border-radius:8px;
+}
+
+a{
+  color: burlywood;
 }
